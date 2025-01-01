@@ -30,7 +30,7 @@ for param in model.parameters():
 model.fc = nn.Linear(in_features=2048, out_features=4)
 
 # Load the trained model's parameters
-model.load_state_dict(torch.load('resnet50(1)10ep.pth', map_location=torch.device('cpu')))
+model.load_state_dict(torch.load('model/resnet50(1)10ep.pth', map_location=torch.device('cpu')))
  
 # Preprocess the image
 transform = transforms.Compose([
