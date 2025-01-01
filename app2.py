@@ -9,7 +9,7 @@ import streamlit as st
 #set title
 st.markdown("<h1 style='text-align: center;'>Retinal OCT Image Classification</h1>", unsafe_allow_html=True)
 st.text(" ")
-image = Image.open('D:/open house ja/oct 4 types.png')
+image = Image.open('oct 4 types.png')
 st.image(image, caption='OCT images for each category')
 
 #set sub header for description
@@ -30,7 +30,7 @@ for param in model.parameters():
 model.fc = nn.Linear(in_features=2048, out_features=4)
 
 # Load the trained model's parameters
-model.load_state_dict(torch.load('D:/open house ja/resnet50(1)10ep.pth', map_location=torch.device('cpu')))
+model.load_state_dict(torch.load('resnet50(1)10ep.pth', map_location=torch.device('cpu')))
  
 # Preprocess the image
 transform = transforms.Compose([
