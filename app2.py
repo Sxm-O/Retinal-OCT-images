@@ -7,7 +7,7 @@ from PIL import Image
 import streamlit as st
 
 image = Image.open('Khon_Kaen_Wittayayon_School_Logo.svg.png')
-image = image.resize((200, 200))  
+image = image.resize((150, 150))  
 st.image(image)
 
 #set title
