@@ -8,7 +8,7 @@ import streamlit as st
 
 
 image = Image.open('Khon_Kaen_Wittayayon_School_Logo.svg.png')
-col1, col2, col3 = st.columns([1, 3, 1]) 
+col1, col2, col3 = st.columns([1, 2, 1]) 
 with col2:
     st.image(image, width=120) 
     
