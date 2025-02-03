@@ -7,7 +7,8 @@ from PIL import Image
 import streamlit as st
 
 image = Image.open('Khon_Kaen_Wittayayon_School_Logo.svg.png')
-st.image(image)
+st.image(image, use_column_width=True)
+
 #set title
 st.markdown("<h1 style='text-align: center;'>Retinal OCT Image Classification</h1>", unsafe_allow_html=True)
 st.text(" ")
