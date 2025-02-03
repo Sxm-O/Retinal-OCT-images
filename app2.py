@@ -8,9 +8,9 @@ import streamlit as st
 
 image = Image.open('Khon_Kaen_Wittayayon_School_Logo.svg.png')
 image = image.resize((150, 150))  
-left_co, cent_co,last_co = st.columns(3)
-with cent_co:
-    st.image(image)
+col1, col2, col3 = st.columns([1, 2, 1])
+with col2:
+    st.image(image, width=150)  
     
 #set title
 st.markdown("<h1 style='text-align: center;'>Retinal OCT Image Classification</h1>", unsafe_allow_html=True)
