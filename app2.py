@@ -8,9 +8,7 @@ import streamlit as st
 
 image = Image.open('Khon_Kaen_Wittayayon_School_Logo.svg.png')
 
-st.markdown("<h2 style='text-align: center;'>School Logo</h2>", unsafe_allow_html=True)
-
-col1, col2, col3 = st.columns([1, 2, 1])  # Create columns for centering
+col1, col2, col3 = st.columns([1, 2, 1]) 
 with col2:
     st.image(image, width=150)
     
