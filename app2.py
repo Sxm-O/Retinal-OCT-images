@@ -21,7 +21,7 @@ st.markdown("<div style='text-align: left;'><br>Please upload a Retinal OCT imag
 
 # Load model
 # Define class names  
-class_names = ['Choroidal neovascularization (CNV)', 'Diabetic macular edema (DME)', 'Multiple drusen (DRUSEN)', 'Normal retinas (NORMAL)']
+class_names = ['Choroidal neovascularization (CNV)', 'Diabetic Macular Edema (DME)', 'Multiple Drusen (DRUSEN)', 'Normal Retinas (NORMAL)']
 
 # Define your model
 model = models.mobilenet_v2(pretrained=True)
