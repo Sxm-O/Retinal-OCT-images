@@ -7,7 +7,12 @@ from PIL import Image
 import streamlit as st
 
 image = Image.open('Khon_Kaen_Wittayayon_School_Logo.svg.png')
-st.image(image, width=150, output_format="auto")  
+
+st.markdown("<h2 style='text-align: center;'>School Logo</h2>", unsafe_allow_html=True)
+
+col1, col2, col3 = st.columns([1, 2, 1])  # Create columns for centering
+with col2:
+    st.image(image, width=150)
     
 #set title
 st.markdown("<h1 style='text-align: center;'>Retinal OCT Image Classification</h1>", unsafe_allow_html=True)
