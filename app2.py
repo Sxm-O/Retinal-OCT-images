@@ -24,13 +24,13 @@ st.markdown("<div style='text-align: left;'><br>Please upload a Retinal OCT imag
 class_names = ['Choroidal neovascularization (CNV)', 'Diabetic macular edema (DME)', 'Multiple drusen (DRUSEN)', 'Normal retinas (NORMAL)']
 
 # Define your model
-model = models.resnet50(pretrained=True)
+model = models.mobilenet_v2(pretrained=True)
 for param in model.parameters():
     param.requires_grad = True
-model.fc = nn.Linear(in_features=2048, out_features=4)
+model.fc = nn.Linear(in_features=512, out_features=4)
 
 # Load the trained model's parameters
-model.load_state_dict(torch.load('model/resnet50(1)10ep.pth', map_location=torch.device('cpu')))
+model.load_state_dict(torch.load('model/MoblieNet(1)10ep.pth', map_location=torch.device('cpu')))
  
 # Preprocess the image
 transform = transforms.Compose([
