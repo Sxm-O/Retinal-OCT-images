@@ -10,7 +10,7 @@ image = Image.open('Khon_Kaen_Wittayayon_School_Logo.svg.png')
 image = image.resize((150, 150))  
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
-    st.image(image, width=150)  
+    st.image(image, width=300)  
     
 #set title
 st.markdown("<h1 style='text-align: center;'>Retinal OCT Image Classification</h1>", unsafe_allow_html=True)
