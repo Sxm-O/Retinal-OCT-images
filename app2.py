@@ -30,7 +30,7 @@ for param in model.parameters():
 model.fc = nn.Linear(in_features=512, out_features=4)
 
 # Load the trained model's parameters
-model.load_state_dict(torch.load('model/MoblieNet(1)10ep.pth', map_location=torch.device('cpu')))
+model.load_state_dict(torch.load('model/MobileNet(1)10ep.pth', map_location=torch.device('cpu')))
  
 # Preprocess the image
 transform = transforms.Compose([
