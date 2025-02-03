@@ -8,22 +8,9 @@ import streamlit as st
 
 
 image = Image.open('Khon_Kaen_Wittayayon_School_Logo.svg.png')
-col1, col2, col3 = st.columns([1, 2, 1])
+col1, col2, col3 = st.columns([1, 3, 1]) 
 with col2:
-    st.markdown(
-        """
-        <div style="display: flex; justify-content: center;">
-            <img src="data:image/png;base64,{}" width="120">
-        </div>
-        """.format(image_to_base64(image)),
-        unsafe_allow_html=True
-    )
-def image_to_base64(image):
-    import base64
-    from io import BytesIO
-    buffered = BytesIO()
-    image.save(buffered, format="PNG")
-    return base64.b64encode(buffered.getvalue()).decode("utf-8")
+    st.image(image, width=120) 
     
 #set title
 st.markdown("<h1 style='text-align: center;'>Retinal OCT Image Classification</h1>", unsafe_allow_html=True)
