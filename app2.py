@@ -17,7 +17,7 @@ st.image(image, caption='OCT images for each category')
 st.subheader("There are four categories for classifying OCT images:")
 
 #set sub header for description
-st.subheader("There are four categories for classifying OCT images:\n- Choroidal Neovascularization (CNV)- Choroidal neovascularization (CNV) is the growth of abnormal blood vessels in the choroid. The choroid is the blood vessel-filled middle layer of the eye, which lies between the sclera and retina. These abnormal blood vessels can leak fluid and blood, damaging the retina and causing vision loss ([All About Vision](https://www.allaboutvision.com/conditions/choroidal-neovascularization-cnv/)).\n- Diabetic Macular Edema (DME)\n- Multiple Drusen (DRUSEN)\n- Normal Retinas (NORMAL)")
+st.subheader("There are four categories for classifying OCT images:\n- Choroidal Neovascularization (CNV)- the growth of abnormal blood vessels in the choroid. The choroid is the blood vessel-filled middle layer of the eye, which lies between the sclera and retina. These abnormal blood vessels can leak fluid and blood, damaging the retina and causing vision loss ([All About Vision](https://www.allaboutvision.com/conditions/choroidal-neovascularization-cnv/)).\n- Diabetic Macular Edema (DME)\n- Multiple Drusen (DRUSEN)\n- Normal Retinas (NORMAL)")
 
 
 #set header
