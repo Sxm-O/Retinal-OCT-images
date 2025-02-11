@@ -14,7 +14,6 @@ st.text(" ")
 image = Image.open('oct 4 types.png')
 st.image(image, caption='OCT images for each category')
 
-st.subheader("There are four categories for classifying OCT images:")
 
 #set sub header for description
 st.subheader("""
