@@ -16,19 +16,9 @@ st.image(image, caption='OCT images for each category')
 
 st.subheader("There are four categories for classifying OCT images:")
 
-st.markdown("""
-### Choroidal Neovascularization (CNV)
-<span style="font-size: 12px;">Choroidal neovascularization (CNV) is the growth of abnormal blood vessels in the choroid. The choroid is the blood vessel-filled middle layer of the eye, which lies between the sclera and retina. These abnormal blood vessels can leak fluid and blood, damaging the retina and causing vision loss ([All About Vision](https://www.allaboutvision.com/conditions/choroidal-neovascularization-cnv/)).</span>
+#set sub header for description
+st.subheader("There are four categories for classifying OCT images:\n- Choroidal Neovascularization (CNV)- Choroidal neovascularization (CNV) is the growth of abnormal blood vessels in the choroid. The choroid is the blood vessel-filled middle layer of the eye, which lies between the sclera and retina. These abnormal blood vessels can leak fluid and blood, damaging the retina and causing vision loss ([All About Vision](https://www.allaboutvision.com/conditions/choroidal-neovascularization-cnv/)).\n- Diabetic Macular Edema (DME)\n- Multiple Drusen (DRUSEN)\n- Normal Retinas (NORMAL)")
 
-### Diabetic Macular Edema (DME)
-<span style="font-size: 12px;">Diabetic Macular Edema (DME) is a complication of diabetes that occurs when blood vessels in the retina become damaged due to prolonged high blood sugar levels. This damage causes fluid accumulation in the macula, leading to swelling and vision impairment.</span>
-
-### Multiple Drusen (DRUSEN)
-<span style="font-size: 12px;">Drusen are yellow deposits that form under the retina, often associated with aging and age-related macular degeneration (AMD). Multiple drusen can indicate early AMD, potentially leading to vision loss as the disease progresses.</span>
-
-### Normal Retinas (NORMAL)
-<span style="font-size: 12px;">Normal retinas exhibit no pathological features such as CNV, DME, or drusen. The retinal layers are intact, with no abnormal fluid accumulation, neovascularization, or structural disruptions.</span>
-""", unsafe_allow_html=True)
 
 #set header
 st.markdown("<div style='text-align: left;'><br>Please upload a Retinal OCT image </div>", unsafe_allow_html=True)
