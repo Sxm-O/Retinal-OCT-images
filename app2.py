@@ -10,6 +10,7 @@ import streamlit as st
     
 #set title
 st.markdown("""
+<img src="Khon_Kaen_Wittayayon_School_Logo.svg.png" alt="Logo" style="display: block; margin-left: auto; margin-right: auto; width: 200px;">
 <h1 style='text-align: center;'>Retinal OCT Image Classification</h1>
 <h3 style='text-align: center;'>For Educational Training</h3>
 """, unsafe_allow_html=True)
