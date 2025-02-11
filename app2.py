@@ -6,7 +6,7 @@ from torchvision import transforms
 from PIL import Image
 import streamlit as st
 
-st.image("your_logo_url_or_path_here", width=200)
+st.image("Khon_Kaen_Wittayayon_School_Logo.svg.png", width=200)
 #set title
 st.markdown("""
 <h1 style='text-align: center;'>Retinal OCT Image Classification</h1>
