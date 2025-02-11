@@ -10,7 +10,7 @@ import streamlit as st
     
 #set title
 st.markdown("<h1 style='text-align: center;'>Retinal OCT Image Classification</h1>", unsafe_allow_html=True)
-st.subheader("For Educational Training")
+st.subheader("<h1 style='text-align: center;'> For Educational Training</h1>", unsafe_allow_html=True")
 st.text(" ")
 image = Image.open('oct 4 types.png')
 st.image(image, caption='OCT images for each category')
