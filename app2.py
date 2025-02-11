@@ -8,9 +8,10 @@ import streamlit as st
 
 st.markdown("""
 <div style="text-align: center;">
-    <img src="https://github.com/Sxm-O/Retinal-OCT-images/blob/main/Khon_Kaen_Wittayayon_School_Logo.svg.png" alt="KKW" width="150">
+    <img src="https://raw.githubusercontent.com/Sxm-O/Retinal-OCT-images/main/Khon_Kaen_Wittayayon_School_Logo.svg.png" alt="KKW" width="150">
 </div>
 """, unsafe_allow_html=True)
+
 #set title
 st.markdown("""
 <h1 style='text-align: center;'>Retinal OCT Image Classification</h1>
