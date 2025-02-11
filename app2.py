@@ -7,7 +7,7 @@ from PIL import Image
 import streamlit as st
 
 
-st.image("Khon_Kaen_Wittayayon_School_Logo.svg.png", width=120) 
+st.image("Khon_Kaen_Wittayayon_School_Logo.svg.png", width=150) 
 #set title
 st.markdown("""
 <h1 style='text-align: center;'>Retinal OCT Image Classification</h1>
