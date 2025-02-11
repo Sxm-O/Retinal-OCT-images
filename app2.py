@@ -21,7 +21,7 @@ There are four categories for classifying OCT images:
 - **Choroidal Neovascularization (CNV)** - the growth of abnormal blood vessels in the choroid. The choroid is the blood vessel-filled middle layer of the eye, which lies between the sclera and retina. These abnormal blood vessels can leak fluid and blood, damaging the retina and causing vision loss ([All About Vision](https://www.allaboutvision.com/conditions/choroidal-neovascularization-cnv/)).
 - **Diabetic Macular Edema (DME)** - a complication of diabetes caused by fluid accumulation in the macula, which can affect the fovea. The macula is the central portion of the retina, located at the back of the eye, where vision is the sharpest ([Prevent Blindness](https://preventblindness.org/diabetic-macular-edema-dme/)).
 - **Multiple Drusen (DRUSEN)** - yellow deposits under the retina, made up of lipids and proteins. Drusen can vary in size—small, medium, and large. Small drusen are common in individuals aged 50 and older without age-related macular degeneration (AMD). However, having many small drusen and larger drusen are often signs of AMD ([American Academy of Ophthalmology](https://www.aao.org/eye-health/diseases/what-are-drusen#:~:text=Drusen%20are%20yellow%20deposits%20under,are%20often%20signs%20of%20AMD)).
-- **Normal Retinas (NORMAL)** - Retinas that do not show any signs of pathology like CNV, DME, or drusen.
+- **Normal Retinas (NORMAL)** - retinas that do not show any signs of pathology like CNV, DME, or drusen.
 """)
 
 #set header
