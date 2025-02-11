@@ -6,7 +6,7 @@ from torchvision import transforms
 from PIL import Image
 import streamlit as st
 
-
+image2 = Image.open('Khon_Kaen_Wittayayon_School_Logo.svg.png')
 
 #set title
 st.markdown("""
