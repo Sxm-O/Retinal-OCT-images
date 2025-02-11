@@ -7,7 +7,7 @@ from PIL import Image
 import streamlit as st
 
 
-st.markdown("""
+st.image("""
 <div style="text-align: center;">
     <img src="Khon_Kaen_Wittayayon_School_Logo.svg.png" width="150">
 </div>
