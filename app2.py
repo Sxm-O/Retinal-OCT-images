@@ -8,7 +8,7 @@ import streamlit as st
 
 st.markdown("""
 <div style="text-align: center;">
-    <img src="https://raw.githubusercontent.com/Sxm-O/Retinal-OCT-images/main/Khon_Kaen_Wittayayon_School_Logo.svg.png" alt="KKW" width="150">
+    <img src="https://raw.githubusercontent.com/Sxm-O/Retinal-OCT-images/main/epkkw logo.jpg" alt="KKW" width="150">
 </div>
 """, unsafe_allow_html=True)
 
