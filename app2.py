@@ -6,7 +6,11 @@ from torchvision import transforms
 from PIL import Image
 import streamlit as st
 
-
+st.markdown("""
+<div style="text-align: center;">
+    <img src="https://raw.githubusercontent.com/Sxm-O/Retinal-OCT-images/main/epkkw_logo.jpg" alt="KKW" width="150">
+</div>
+""", unsafe_allow_html=True)
 
 #set title
 st.markdown("""
